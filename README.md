@@ -2,8 +2,6 @@
 
 This repository contains various C programs related to network simulation, error detection, and correction algorithms. Each program serves as a practical example for exploring computer networking and data communication concepts.
 
----
-
 #### Programs List
 
 1. **CRC-CCITT Error Detection**
@@ -39,8 +37,6 @@ This repository contains various C programs related to network simulation, error
 11. **Ethernet LAN Simulation**
     Simulates Ethernet LAN behavior with multiple nodes to study collisions.
 
----
-
 #### How to Compile and Run
 
 1. Install a C compiler, such as GCC.
@@ -61,14 +57,8 @@ This repository contains various C programs related to network simulation, error
    ./program_name
    ```
 
----
-
 #### Simulation Notes
 
 * Network simulation programs (7–11) may require advanced network simulation tools, such as NS2 or NS3, for visualization.
 * You can modify the source code for custom parameters like node count, bandwidth, or queue size.
 * Ensure all required libraries and dependencies are installed for smooth execution.
-
----
-
-
