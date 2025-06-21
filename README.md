@@ -1,10 +1,74 @@
-1. Write a program for error detecting code using CRC-CCITT (16-bits)
-2. Write a program for Hamming Code generation for error detection and correction3. Write a program for frame sorting techniques used in buffers.
-4. Using TCP/IP sockets, write a client-server program to make client sending the file name and the server to send back the contents of the requested file if present
-5. Write a program for a distance vector algorithm to find a suitable path for transmission.
-6. Write a program for congestion control using Leaky bucket algorithm.
-7. Simulate a three nodes point-to-point network with duplex links between them. Set the queue size, vary the bandwidth, and find the number of packets dropped.
-8. Simulate a four-node point-to-point network, and connect the links as follows: n0- n2, n1-n2 and n2-n3. Apply TCP agent between n0-n3 and UDP n1-n3. Apply relevant applications over TCP and UDP agents changing the parameter and determine the number of packets by TCP/UDP.
-9. Simulate the different types of Internet traffic such as FTP a TELNET over a network and analyze the throughput.
-10. Simulate the transmission of ping messaged over a network topology consisting of 6 nodes and find the number of packets dropped due to congestion.
-11. Simulate an Ethernet LAN using N nodes and set multiple traffic nodes and determine collision across different nodes. 
+#### Network Simulation and Error Detection Programs
+
+This repository contains various C programs related to network simulation, error detection, and correction algorithms. Each program serves as a practical example for exploring computer networking and data communication concepts.
+
+---
+
+#### Programs List
+
+1. **CRC-CCITT Error Detection**
+   Computes the 16-bit CRC-CCITT value for a given message.
+
+2. **Hamming Code Generation**
+   Generates and verifies Hamming codes for error detection and correction.
+
+3. **Frame Sorting Techniques**
+   Simulates sorting frames in network buffers using multiple sorting techniques.
+
+4. **TCP/IP Socket Communication**
+   A simple client-server file transfer program over TCP/IP sockets.
+
+5. **Distance Vector Algorithm**
+   Implements a routing protocol to determine the shortest data transmission path.
+
+6. **Leaky Bucket Algorithm**
+   Demonstrates congestion control using the leaky bucket mechanism.
+
+7. **Point-to-Point Network Simulation (3 Nodes)**
+   Simulates a network with three nodes, allowing queue and bandwidth adjustments.
+
+8. **Point-to-Point Network Simulation (4 Nodes)**
+   Models a four-node network with TCP and UDP agents to measure packet loss.
+
+9. **Internet Traffic Simulation**
+   Analyzes the throughput of FTP and TELNET traffic in a simulated environment.
+
+10. **Ping Message Transmission**
+    Simulates sending ping messages in a six-node topology and identifies packet drops.
+
+11. **Ethernet LAN Simulation**
+    Simulates Ethernet LAN behavior with multiple nodes to study collisions.
+
+---
+
+#### How to Compile and Run
+
+1. Install a C compiler, such as GCC.
+2. Download the source files for the desired program.
+3. Navigate to the program's directory:
+
+   ```
+   cd path/to/program
+   ```
+4. Compile the program:
+
+   ```
+   gcc program_name.c -o program_name
+   ```
+5. Execute the compiled program:
+
+   ```
+   ./program_name
+   ```
+
+---
+
+#### Simulation Notes
+
+* Network simulation programs (7–11) may require advanced network simulation tools, such as NS2 or NS3, for visualization.
+* You can modify the source code for custom parameters like node count, bandwidth, or queue size.
+* Ensure all required libraries and dependencies are installed for smooth execution.
+
+---
+
+
